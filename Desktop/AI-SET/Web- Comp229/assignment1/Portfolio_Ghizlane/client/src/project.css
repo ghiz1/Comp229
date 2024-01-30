@@ -1,0 +1,46 @@
+/* 
+Ghizlane Ez-Zarrad
+301412844
+2024-01-28
+*/
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .worksDesc {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  
+  .worksImgs {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+    justify-content: center;
+    gap: 2rem; /* Adjust the gap between images */
+  }
+  
+  .worksImg {
+    object-fit: cover;
+    height: 20rem; /* Adjust the height of the images */
+    width: 30%; /* Adjust the width of the images */
+    max-width: 20rem; /* Limit the maximum width of the images */
+    margin: 1rem; /* Add margin around each image */
+  }
+  

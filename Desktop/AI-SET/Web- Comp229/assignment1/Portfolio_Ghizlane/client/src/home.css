@@ -1,0 +1,66 @@
+/* 
+Ghizlane Ez-Zarrad
+301412844
+2024-01-28
+*/
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin-left: 7rem; /* Center the container horizontally */
+  }
+  
+  .imageContainer {
+    flex: 1; /* Make the image container flexible */
+    margin-right: 2rem; /* Add margin for spacing between image and text */
+  }
+  
+  .textContainer {
+    flex: 3;
+     /* Make the text container flexible */
+  }
+  
+  .image {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+  }
+  
+  .text {
+    font-size: 1.6rem; /* Adjust font size as needed */
+    color: #333;
+    /* Adjust text color */
+  }
+
+  .introName{
+    font-weight: bold;
+
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px; /* Adjust spacing between buttons */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #610b0b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #610b0b;
+  }

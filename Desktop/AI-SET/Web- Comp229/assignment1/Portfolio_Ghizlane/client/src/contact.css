@@ -1,0 +1,52 @@
+/* 
+Ghizlane Ez-Zarrad
+301412844
+2024-01-28
+*/
+#ffp {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-size: 1.2rem; /* Increase font size */
+    color: #333; /* Change label color */
+    margin-bottom: 0.5rem; /* Add margin bottom */
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+  input {
+    font-size: 1rem; /* Adjust font size */
+    padding: 0.5rem; /* Add padding */
+    margin-bottom: 1rem; /* Add margin bottom */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  input[type="submit"] {
+    font-size: 1rem; /* Adjust font size */
+    padding: 0.5rem 2rem; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Increase border radius */
+    background-color: #cd7272; /* Change background color */
+    color: #420808; /* Change text color */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #7b2020; /* Change background color on hover */
+  }
+  
+  p, a {
+    font-size: 1rem; /* Adjust font size */
+    color: #666; /* Change text color */
+    text-align: center;
+    margin-top: 1rem; /* Add margin top */
+  }
+  
+  
